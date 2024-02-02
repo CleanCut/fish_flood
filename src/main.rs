@@ -49,7 +49,7 @@ struct Player {
 impl Player {
     fn new() -> Player {
         Self {
-            hose_timer: Timer::from_seconds(0.03, TimerMode::Repeating),
+            hose_timer: Timer::from_seconds(0.04, TimerMode::Repeating),
             offsets: [-30.0, -10.0, 10.0, 30.0],
             offset_index: 0,
         }
